@@ -59,6 +59,12 @@ O **clustering hierárquico** cria uma estrutura de árvore (**dendrograma**) pa
 3. O processo continua até que reste **apenas um cluster** contendo todos os pontos.
 4. Podemos **cortar o dendrograma** para obter o número desejado de clusters.
 
+### 🛠 Como Funciona? (Método Divisivo)
+1.  Todos os pontos pertencem a um único **cluster inicial** (a raiz do dendrograma).
+2.  O cluster é dividido em **dois subgrupos**, baseando-se na maior dissimilaridade entre os pontos.
+3. Cada subgrupo continua sendo dividido **recursivamente**, usando um critério de separação, como a **distância entre os pontos.**
+4. O processo continua até que cada ponto seja um cluster individual ou até atingir um número específico de clusters.
+
 ### ✅ Vantagens
 ✔ Não exige definir o **número de clusters previamente**.  
 ✔ Gera um **dendrograma útil** para análise exploratória.
@@ -66,3 +72,5 @@ O **clustering hierárquico** cria uma estrutura de árvore (**dendrograma**) pa
 ### ❌ Desvantagens
 ✖ Computacionalmente **mais pesado** que K-Means para grandes conjuntos de dados.  
 ✖ Não lida bem com **outliers**.
+
+# 🔍 Aplicação Prática
