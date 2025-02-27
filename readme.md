@@ -74,3 +74,14 @@ O **clustering hierárquico** cria uma estrutura de árvore (**dendrograma**) pa
 ✖ Não lida bem com **outliers**.
 
 # 🔍 Aplicação Prática
+## 🛒 Amazon (Segmentação de Clientes – K-Means)
+A Amazon usa K-Means para segmentar clientes com base no histórico de compras, comportamento de navegação e preferências.
+Isso permite recomendações personalizadas e ofertas direcionadas para diferentes perfis de consumidores.
+
+## 🎵 Spotify (Recomendação de Músicas – K-Means / Hierárquico)
+O Spotify usa clustering hierárquico e K-Means para agrupar usuários com gostos musicais semelhantes.
+Além disso, agrupa músicas em clusters com base em características como ritmo, gênero e frequência sonora, criando playlists automáticas como Discover Weekly.
+
+## 📺 Netflix (Recomendação de Filmes – K-Means / DBSCAN)
+A Netflix utiliza clustering para identificar padrões de consumo e sugerir séries e filmes com base em usuários com gostos semelhantes.
+Também agrupa vídeos com base em categorias ocultas (subgêneros, tipo de narrativa, atores, etc.).
