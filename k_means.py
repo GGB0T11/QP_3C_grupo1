@@ -33,7 +33,6 @@ for k in k_values:
     kmeans = KMeans(n_clusters=k, random_state=42, n_init=10)
     kmeans.fit(X)
     inertia.append(kmeans.inertia_)
-    print(f"K = {k}: Inércia = {kmeans.inertia_}")
 
 # Plotando o gráfico do método do cotovelo
 plt.figure(figsize=(8, 6))
