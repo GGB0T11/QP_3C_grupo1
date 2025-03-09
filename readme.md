@@ -19,13 +19,10 @@ O **K-Means** é um dos algoritmos de clustering mais usados, baseado na divisã
 4. Atualizar os centroides calculando a **média dos pontos** em cada cluster.
 5. Repetir os passos **3 e 4** até que os centroides parem de mudar (**convergência**).
 
-### ✅ Vantagens
-✔ Simples e eficiente para grandes conjuntos de dados.  
-✔ Funciona bem em dados esféricos e bem separados.
-
-### ❌ Desvantagens
-✖ Precisa definir **k previamente**.  
-✖ Sensível a **valores atípicos** e clusters de formas irregulares.
+| ✅ **Vantagens** | ❌ **Desvantagens** |
+| --- | --- |
+| • Simples e eficiente para grandes conjuntos de dados | • Precisa definir k previamente |
+| • Funciona bem em dados esféricos e bem separados | • Sensível a valores atípicos e clusters de formas irregulares |
 
 ---
 
@@ -38,13 +35,10 @@ O **DBSCAN** forma clusters com base na **densidade dos pontos** e pode **detect
 3. Expande clusters a partir desses **pontos centrais**, incluindo vizinhos próximos.
 4. Pontos que não pertencem a nenhum cluster são marcados como **outliers (-1)**.
 
-### ✅ Vantagens
-✔ Detecta clusters de **formas irregulares**.  
-✔ Identifica **outliers automaticamente**.
-
-### ❌ Desvantagens
-✖ Sensível à escolha de **eps e min_samples**.  
-✖ Pode ter dificuldades em **dados de alta dimensão**.
+| ✅ **Vantagens** | ❌ **Desvantagens** |
+| --- | --- |
+| • Detecta clusters de formas irregulares | • Sensível à escolha de eps e min_samples |
+| • Identifica outliers automaticamente | • Pode ter dificuldades em dados de alta dimensão |
 
 ---
 
@@ -65,13 +59,12 @@ O **clustering hierárquico** cria uma estrutura de árvore (**dendrograma**) pa
 3. Cada subgrupo continua sendo dividido **recursivamente**, usando um critério de separação, como a **distância entre os pontos.**
 4. O processo continua até que cada ponto seja um cluster individual ou até atingir um número específico de clusters.
 
-### ✅ Vantagens
-✔ Não exige definir o **número de clusters previamente**.  
-✔ Gera um **dendrograma útil** para análise exploratória.
+| ✅ **Vantagens** | ❌ **Desvantagens** |
+| --- | --- |
+| • Não exige definir o número de clusters previamente | • Computacionalmente mais pesado que K-Means para grandes conjuntos de dados |
+| • Gera um dendrograma útil para análise exploratória | • Não lida bem com outliers |
 
-### ❌ Desvantagens
-✖ Computacionalmente **mais pesado** que K-Means para grandes conjuntos de dados.  
-✖ Não lida bem com **outliers**.
+---
 
 # 🔍 Aplicação Prática
 ## 🛒 Amazon (Segmentação de Clientes – K-Means)
