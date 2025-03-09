@@ -1,7 +1,3 @@
-Aqui está o texto revisado, com mais informações e uma linguagem mais simples e direta.  
-
----
-
 ## 1. Conceitos – O que é Clustering?  
 
 Clustering é uma técnica de aprendizado de máquina usada para agrupar dados semelhantes sem a necessidade de rótulos prévios. Isso significa que ele descobre padrões nos dados sem que haja uma categorização definida. O objetivo do clustering é organizar os dados de forma que pontos dentro do mesmo grupo sejam mais parecidos entre si do que com pontos de outros grupos.  
